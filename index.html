@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section id = "intro">
+      <h1 class="heading">CONNECT FOUR GAME!!</h1>
+      <p>Two players take turns dropping colored discs into a seven-column, seven-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs</p>
+      <h2 class="player-turn">Player turn</h2>
+      <h2 class="player-color">Player 1 is Red. Player 2 is Blue</h2>
+      <h2 class="winner"></h2>
+    </section>
+
+    <section id = "table-game">
+      <table>
+        <tr>
+          <td class = "cell col1 col17"></td>
+          <td class = "cell col2 col27"></td>
+          <td class = "cell col3 col37"></td>
+          <td class = "cell col4 col47"></td>
+          <td class = "cell col5 col57"></td>
+          <td class = "cell col6 col67"></td>
+          <td class = "cell col7 col77"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col16"></td>
+          <td class = "cell col2 col26"></td>
+          <td class = "cell col3 col36"></td>
+          <td class = "cell col4 col46"></td>
+          <td class = "cell col5 col56"></td>
+          <td class = "cell col6 col66"></td>
+          <td class = "cell col7 col76"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col15"></td>
+          <td class = "cell col2 col25"></td>
+          <td class = "cell col3 col35"></td>
+          <td class = "cell col4 col45"></td>
+          <td class = "cell col5 col55"></td>
+          <td class = "cell col6 col65"></td>
+          <td class = "cell col7 col75"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col14"></td>
+          <td class = "cell col2 col24"></td>
+          <td class = "cell col3 col34"></td>
+          <td class = "cell col4 col44"></td>
+          <td class = "cell col5 col54"></td>
+          <td class = "cell col6 col64"></td>
+          <td class = "cell col7 col74"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col13"></td>
+          <td class = "cell col2 col23"></td>
+          <td class = "cell col3 col33"></td>
+          <td class = "cell col4 col43"></td>
+          <td class = "cell col5 col53"></td>
+          <td class = "cell col6 col63"></td>
+          <td class = "cell col7 col73"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col12"></td>
+          <td class = "cell col2 col22"></td>
+          <td class = "cell col3 col32"></td>
+          <td class = "cell col4 col42"></td>
+          <td class = "cell col5 col52"></td>
+          <td class = "cell col6 col62"></td>
+          <td class = "cell col7 col72"></td>
+        </tr>
+        <tr>
+          <td class = "cell col1 col11"></td>
+          <td class = "cell col2 col21"></td>
+          <td class = "cell col3 col31"></td>
+          <td class = "cell col4 col41"></td>
+          <td class = "cell col5 col51"></td>
+          <td class = "cell col6 col61"></td>
+          <td class = "cell col7 col71"></td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>

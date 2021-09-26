@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  margin-top: 100px;
+  border: none;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.highlight {
+  color: red;
+  font-size: 4rem;
+}
